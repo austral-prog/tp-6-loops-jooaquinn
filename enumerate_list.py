@@ -9,7 +9,11 @@ def enumerate_list(lst):
 
     Ejemplo: enumerate_list(["Red", "Green", "", "White"]) -> ["0. Red", "1. Green", "2. White"]
     """
-    return "ANSWER HERE"  # Remove this line and implement
+    resultado =  1
+    for i in range(exp):
+        resultado = resultado * base
+    return resultado
+
 
 
 def enumerate_backwards(lst):
@@ -19,4 +23,7 @@ def enumerate_backwards(lst):
 
     Ejemplo: enumerate_backwards(["Red", "Green", ""]) -> ["0. deR", "1. neerG"]
     """
-    return "ANSWER HERE"  # Remove this line and implement
+    acc = 0
+    for i in range(max_exp + 1):
+        acc = acc + base ** i
+    return acc
