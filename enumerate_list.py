@@ -1,24 +1,22 @@
-def power(base, exp):
-    """
-    Retorna base elevado a exp usando un bucle for.
-    exp es siempre >= 0.
+# Replace the "ANSWER HERE" for your answer
 
-    Ejemplo: power(2, 3) -> 8  (2*2*2)
+def enumerate_list(lst):
     """
-    resultado =  1
-    for i in range(exp):
-        resultado = resultado * base
-    return resultado
+    Dada una lista de strings, retorna una nueva lista donde cada elemento
+    tiene el formato "indice. valor". Los strings vacios se deben saltear
+    y no deben aparecer en la lista resultante.
+    El indice debe ser consecutivo (no el indice original).
+
+    Ejemplo: enumerate_list(["Red", "Green", "", "White"]) -> ["0. Red", "1. Green", "2. White"]
+    """
+    return "ANSWER HERE"  # Remove this line and implement
 
 
-def sum_of_powers(base, max_exp):
+def enumerate_backwards(lst):
     """
-    Retorna la suma de base^0 + base^1 + ... + base^max_exp.
-    Debe USAR la funcion power.
+    Igual que enumerate_list, pero cada palabra debe estar escrita al reves.
+    Los strings vacios se deben saltear.
 
-    Ejemplo: sum_of_powers(2, 3) -> 15  (1+2+4+8)
+    Ejemplo: enumerate_backwards(["Red", "Green", ""]) -> ["0. deR", "1. neerG"]
     """
-    acc = 0
-    for i in range(max_exp + 1):
-        acc = acc + base ** i
-    return acc
+    return "ANSWER HERE"  # Remove this line and implement
