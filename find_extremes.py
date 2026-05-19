@@ -25,7 +25,7 @@ def find_max(numbers):
     Ejemplo: find_max([5, 5, 5]) -> 5
     Ejemplo: find_max([-3, -1, -7]) -> -1
     """
-        maximo = numbers[0]
+    maximo = numbers[0]
     for v in numbers:
         if v > maximo:
             maximo = v
