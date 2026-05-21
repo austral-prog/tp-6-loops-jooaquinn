@@ -6,7 +6,7 @@ def power(base, exp):
     exp es siempre >= 0.
 
     Ejemplo: power(2, 3) -> 8  (2*2*2)
-    "" 
+    """
     resultado =  1
     for i in range(exp):
         resultado = resultado * base
